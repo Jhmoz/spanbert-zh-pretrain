@@ -17,10 +17,10 @@ import math
 import os
 import wandb
 
-WANDB_API_KEY = "506b39db85efadccb99e6c041edeebe227e130e4"
+#WANDB_API_KEY = "*************************"
 wandb.login()
-os.environ["WANDB_PROJECT"] = "sigir2024"
-os.environ["WANDB_MODE"] = "offline"
+#os.environ["WANDB_PROJECT"] = "******"
+#os.environ["WANDB_MODE"] = "offline"
 
 data_files = {
     "train": "./data/raw_corpus/train.txt",
